@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evaluation</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<html>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="#accueil"><img src="./img/logobm.png" alt="Logo BMW"></a>
+            <a href="#accueil">
+                <h1>BMW</h1>
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#section1">Dernière sortie</a></li>
+                <li><a href="#section2">Nos produits</a></li>
+                <li><a href="#section3">Configurez votre véhicule</a></li>
+                <li><a href="#section4">Histoire</a></li>
+                <li><a href="#contact">Nous contacter</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="accueil">
+        <h1>Bienvenue chez BMW</h1>
+        <p>Chez BMW, nous sommes passionnés par la performance et l’innovation. Nos voitures sont conçues pour offrir
+            une expérience de conduite exceptionnelle et un design élégant. Découvrez notre gamme de modèles sportifs et
+            luxueux et trouvez la voiture qui répond à vos besoins en matière de performance et de style. Avec BMW, vous
+            êtes assuré de trouver la voiture parfaite pour vous. Découvrez notre gamme dès maintenant!</p>
+    </section>
+
+
+
+    <section id="section1">
+        <div class="section1-container">
+            <img src="./img/dernier_model.jpg" alt="Image de voiture" class="section1-image">
+            <div class="section1-content">
+                <h2>Dernière sortie</h2>
+                <h3>BMW Série 7</h3>
+                <p>La dernière BMW Série 7 (G70) est une berline haut de gamme qui combine élégance pure et
+                    divertissement multisensoriel pour une expérience de conduite hors du commun. Elle est disponible en
+                    motorisation Diesel et Hybride Rechargeable à partir de 121.150 € 1. Parmi les points forts
+                    technologiques, on peut citer le scénario de bienvenue « Great Entrance Moments », les projecteurs
+                    en cristal et la calandre illuminée « BMW Iconic Glow », l’ambiance Lounge de luxe à l’intérieur et
+                    le divertissement arrière avec l’écran de cinéma « BMW Theatre Screen » de 31,3" 1.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="section2">
+        <div class="container">
+            <div class="column">
+                <h2>BMW M2</h2>
+                <img src="./img/m2.jpg" alt="Image 1" class="section2-image">
+                <p class="section2-text">
+                    La BMW M2 Coupé combine des proportions typiques de BMW et un design puissant avec une sportivité
+                    directement issue de la compétition automobile. Le moteur BMW M 6 cylindres en ligne M TwinPower
+                    Turbo développe une puissance de 460 ch et un couple de 550 Nm</p>
+            </div>
+            <div class="column">
+                <h2>BMW M3</h2>
+                <img src="./img/m3.jpg" alt="Image 2" class="section2-image">
+                <p class="section2-text">
+                    La BMW M3 Competition Berline se caractérise par la calandre M expressive dans une interprétation
+                    maximale dynamique et réduite. Elle développe une puissance sportive de 510 ch et un couple de 650
+                    Nm</p>
+            </div>
+            <div class="column">
+                <h2>BMW M4</h2>
+                <img src="./img/m4.jpg" alt="Image 3" class="section2-image">
+                <p class="section2-text">La BMW M4 Competition Coupé développe une puissance sportive de 510 ch et un
+                    couple de 650 Nm.
+                    Équipée du moteur M TwinPower Turbo à hautes performances, d’une boîte de vitesses M Steptronic à 8
+                    rapports Sport avec Drivelogic et de nombreuses technologies dérivées de la compétition</p>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="section3">
+        <h2>Configurez votre véhicule</h2>
+        <div class="wrapper">
+            <form>
+                <label for="type">Type :</label>
+                <select id="type" name="type">
+                    <option value="serie">Série</option>
+                    <option value="compactes">Compactes</option>
+                    <option value="suv">SUV</option>
+                    <option value="berlines">Berlines</option>
+                    <option value="breaks">Breaks</option>
+                    <option value="coupes">Coupés</option>
+                    <option value="cabriolets">Cabriolets</option>
+                    <option value="bmw_m">BMW M</option>
+                </select>
+                <br>
+                <label for="couleur">Couleur :</label>
+                <select id="couleur" name="couleur">
+                    <option value="blanc">Blanc</option>
+                    <option value="noir">Noir</option>
+                    <option value="gris">Gris</option>
+                    <option value="bleu">Bleu</option>
+                    <option value="rouge">Rouge</option>
+                </select>
+                <br>
+                <label for="finition">Finition :</label>
+                <select id="finition" name="finition">
+                    <option value="sport">Sport</option>
+                    <option value="confort">Confort</option>
+                    <option value="aucune">Aucune</option>
+                </select>
+                <br>
+                <input type="submit" value="Valider">
+            </form>
+            <div id="recap-section">
+                <h3>Récapitulatif de votre commande</h3>
+                <p id="recap-text"></p>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="section4">
+        <div class="section4-container">
+            <h2>Notre histoire</h2>
+            <p>BMW (Bayerische Motoren Werke en allemand, littéralement « Manufacture bavaroise de moteurs ») est un
+                constructeur allemand d’automobiles haut-de-gamme, sportives et luxueuses et de motos. L’entreprise a
+                été fondée en 1916 par Gustav Otto et Karl Friedrich Rapp. À l’origine, BMW était un grand constructeur
+                de moteurs d’avions. Après la Première Guerre mondiale et le traité de Versailles signé en 1919, il lui
+                fut interdit de produire des avions ainsi que des moteurs pour son pays, et l’entreprise fut donc forcée
+                de se reconvertir. Elle se diversifia et produisit des moteurs pour motocyclettes, camions et voitures.
+                Aujourd’hui, la marque BMW fait partie du Groupe BMW avec Mini et Rolls-Royce.</p>
+        </div>
+        <img src="./img/histoire.jpg" alt="Image de voiture" class="section4-image">
+    </section>
+
+    <section id="contact">
+        <h2>Besoin d'un renseignement ?</h2>
+        <form>
+            <label for="nom">Nom complet:</label>
+            <input type="text" id="nom" name="nom" required><br><br>
+
+            <label for="email">Adresse e-mail:</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="tel">Numéro de téléphone (facultatif):</label>
+            <input type="tel" id="tel" name="tel"><br><br>
+
+            <label for="question">Votre question:</label>
+            <textarea id="question" name="question" rows="5" cols="40" required></textarea><br><br>
+
+            <input type="submit" value="Envoyer">
+        </form>
+    </section>
+
+
+    <footer>
+        <p>Droits d'auteur © 2023. Tous droits réservés.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
